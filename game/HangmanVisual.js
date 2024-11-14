@@ -7,6 +7,15 @@ let gallows = [
   
   
   
+                `,
+  `
+  
+  
+  
+  
+  
+  
+  
   --------------`,
   `
 
@@ -45,3 +54,5 @@ let gallows = [
            |
   --------------`,
 ];
+
+module.exports = gallows;
