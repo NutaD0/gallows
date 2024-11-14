@@ -30,7 +30,7 @@ let difficultyChoser = function () {
       difficulty = getRandomDifficulty();
       break;
   }
-  let word = getRandomWord();
+  let word = getRandomWord(difficulty);
   console.log(`Your difficulty: ${difficulty}`);
   console.log(`Your word: ${word}`);
 };
